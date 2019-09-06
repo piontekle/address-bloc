@@ -106,15 +106,16 @@ module.exports = class ContactController {
     });
   }
 
-<<<<<<< HEAD
+//<<<<<<< HEAD
   addContact(name, phone, email) {
     return Contact.create({name, phone, email});
-=======
+  }
+//=======
   delete(id) {
     return Contact.destroy({
       where: {id}
     })
->>>>>>> checkpoint-4-list-and-search
+//>>>>>>> checkpoint-4-list-and-search
   }
 
 }
